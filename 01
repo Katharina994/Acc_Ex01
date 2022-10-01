@@ -1,1 +1,17 @@
-print('Accelerator Exercise 01')
+print('Acceclerator Exercise 01')
+
+print('-Multiply 2 3x3 Matrices')
+print('-This Matrices should be Random')
+
+import numpy as np
+
+a = np.random.rand(3,3) #Random
+b = np.random.rand(3,3) #Random
+
+print(a)
+print(b)
+
+c = a*b #Multiply of the Random Matrices
+
+print(c) #Result
+

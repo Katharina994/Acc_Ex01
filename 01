@@ -11,7 +11,7 @@ b = np.random.rand(3,3) #Random
 print(a)
 print(b)
 
-c = a*b #Multiply of the Random Matrices
-
-print(c) #Result
-
+def func1(): 
+    c = a * b  #Multiply of the Random Matrices
+    print(c) #Result
+func1()
